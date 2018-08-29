@@ -1,0 +1,1 @@
+SELECT * FROM question ORDER BY RAND() LIMIT 100
