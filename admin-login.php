@@ -13,7 +13,7 @@ if (isset($_SESSION["username"]) || isset($_COOKIE["username"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-<link href="https://www.letsnurture.com.au/wp-content/themes/letsnutrure/img/favicon/favicon-16x16.png" rel="shortcut icon" type="image/x-icon" />
+<link href="" rel="shortcut icon" type="image/x-icon" />
     <title>Admin - Login</title>
 
     <!-- Bootstrap core CSS-->
