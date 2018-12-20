@@ -52,15 +52,15 @@ $query="select users1.name,users1.email,users1.mobile,users1.result,users1.total
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'yashs.letsnurture@gmail.com';
-        $mail->Password = 'letsnurture@123';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
 
         //Recipients
-        $mail->setFrom('yashs.letsnurture@gmail.com');
-        $mail->addAddress('rohitm0505@gmail.com');
+        $mail->setFrom('');
+        $mail->addAddress('');
         // $mail->addAddress('ellen@example.com');
         $mail->addReplyTo('norply@gmail.com');
         // $mail->addCC('yashsampat99.ys@gmail.com');
@@ -82,12 +82,12 @@ $query="select users1.name,users1.email,users1.mobile,users1.result,users1.total
         $mail1->isSMTP();
         $mail1->Host = 'smtp.gmail.com';
         $mail1->SMTPAuth = true;
-        $mail1->Username = 'yashs.letsnurture@gmail.com';
-        $mail1->Password = 'letsnurture@123';
+        $mail1->Username = '';
+        $mail1->Password = '';
         $mail1->SMTPSecure = 'tls';
         $mail1->Port = 587;
          //Recipients
-        $mail1->setFrom('yashs.letsnurture@gmail.com');
+        $mail1->setFrom('');
         $mail1->addAddress($_SESSION['email']);
         // $mail->addAddress('ellen@example.com');
         $mail1->addReplyTo('norply@gmail.com');
