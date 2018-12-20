@@ -41,7 +41,7 @@ $result=mysqli_query($con,$query);?>
 
   <body class="bg-light">
     <div style="width:100%;text-align: center;">
-    <img src="ln-logo1.svg" width="250" height="83" >
+    <img src="a.jpg" width="250" height="83" >
     </div>
     <div class="clear-fix"></div>
 <div class="patch"></div>
