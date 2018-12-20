@@ -16,7 +16,7 @@ $result=mysqli_query($con,$query);?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="https://www.letsnurture.com.au/wp-content/themes/letsnutrure/img/favicon/favicon-16x16.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="" rel="shortcut icon" type="image/x-icon" />
     <title>Welcome to Our Recruitment Program</title>
     
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -47,7 +47,7 @@ $result=mysqli_query($con,$query);?>
 <div class="patch"></div>
     <div class="container-fluid">
       <div class="card card-register mx-auto mt-5">
-        <div class="card-header" align="center">Register here to start your journey with Lets Nurture</div>
+        <div class="card-header" align="center">Register here to start your journey with SOA Family</div>
         <div class="card-body" >
            
           <form method="post"  name="reg-form" id="reg-form" action="user-register-backend.php">
@@ -174,7 +174,7 @@ $result=mysqli_query($con,$query);?>
 
 <div class="footer">
   <div class="container">
- <span>2018 All rights reserved Let's Nurture.
+ <span>2018 All rights reserved SOA.
                 </span></div>
 </div>
 
