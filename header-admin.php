@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="https://www.letsnurture.com.au/wp-content/themes/letsnutrure/img/favicon/favicon-16x16.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="" rel="shortcut icon" type="image/x-icon" />
     <title>Admin Panel</title>
 
     <!-- Bootstrap core CSS-->
@@ -30,7 +30,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="index.php" style="background-color: #f8f9fa;"><img src="ln-logo1.svg" width="75" height="20"></a>
+      <a class="navbar-brand mr-1" href="index.php" style="background-color: #f8f9fa;"><img src="a.jpg" width="75" height="20"></a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
