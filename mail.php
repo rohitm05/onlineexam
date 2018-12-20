@@ -52,15 +52,15 @@ $query="select users1.name,users1.email,users1.mobile,users1.result,users1.total
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'yashs.letsnurture@gmail.com';
-        $mail->Password = 'letsnurture@123';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
 
         //Recipients
-        $mail->setFrom('yashs.letsnurture@gmail.com');
-        $mail->addAddress('krunal.letsnurture@gmail.com');
+        $mail->setFrom('');
+        $mail->addAddress('');
         // $mail->addAddress('ellen@example.com');
         $mail->addReplyTo('norply@gmail.com');
         // $mail->addCC('yashsampat99.ys@gmail.com');
@@ -181,12 +181,12 @@ $query="select users1.name,users1.email,users1.mobile,users1.result,users1.total
                 <td class="wrapper" style="font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 20px;">
                   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                   <tr>
-                  <td><img src="https://www.letsnurture.com/wp-content/themes/letsnutrure/img/ln-logo.png" width="250" height="83"></td>
+                  <td><img src="" width="250" height="83"></td>
                   </tr>
                     <tr>
                       <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">
                         <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">Hi there,</p>
-                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">Thanks for being part of Lets Nurture Recruitment Program.</p>
+                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">Thanks for being part of SOA Recruitment Program.</p>
                         <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;">
                           <tbody>
                             <tr>
@@ -217,7 +217,7 @@ $query="select users1.name,users1.email,users1.mobile,users1.result,users1.total
                 
                 <tr>
                   <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
-                    2018 All rights reserved Lets Nurture.
+                    2018 All rights reserved SOA.
                   </td>
                 </tr>
               </table>
@@ -236,12 +236,12 @@ $query="select users1.name,users1.email,users1.mobile,users1.result,users1.total
         $mail1->isSMTP();
         $mail1->Host = 'smtp.gmail.com';
         $mail1->SMTPAuth = true;
-        $mail1->Username = 'yashs.letsnurture@gmail.com';
-        $mail1->Password = 'letsnurture@123';
+        $mail1->Username = '';
+        $mail1->Password = '';
         $mail1->SMTPSecure = 'tls';
         $mail1->Port = 587;
          //Recipients
-        $mail1->setFrom('yashs.letsnurture@gmail.com');
+        $mail1->setFrom('');
         $mail1->addAddress($_SESSION['email']);
         // $mail->addAddress('ellen@example.com');
         $mail1->addReplyTo('norply@gmail.com');
